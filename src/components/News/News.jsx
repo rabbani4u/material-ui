@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Button, Card } from "react-bootstrap";
+import About from "../Card/About";
 
 function News(props) {
   return (
@@ -18,6 +19,7 @@ function News(props) {
           <Button variant="primary">Go somewhere</Button>
         </Card.Body>
       </Card>
+      <About />
     </div>
   );
 }
