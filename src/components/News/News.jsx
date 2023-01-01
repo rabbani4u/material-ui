@@ -2,6 +2,7 @@ import React from "react";
 
 import { Button, Card } from "react-bootstrap";
 import About from "../Card/About";
+import Chart from "../Chart/Chart";
 
 function News(props) {
   return (
@@ -20,6 +21,8 @@ function News(props) {
         </Card.Body>
       </Card>
       <About />
+
+      <Chart />
     </div>
   );
 }
